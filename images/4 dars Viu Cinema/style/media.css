@@ -1,0 +1,15 @@
+@media(max-width:1061px) {
+    .films_cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .films_card {
+        max-width: none;
+        width: 48%;
+    }
+
+    .films_banner:nth-of-type(1) {
+        object-position: top;
+    }
+}
